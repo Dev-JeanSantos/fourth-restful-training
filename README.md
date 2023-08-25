@@ -57,11 +57,13 @@
 - Lombok
 - Fly
 - Spring Validation
+- Spring Security
 - Junit e Mockito
 - Swagger
 - Mysql, H2
 - Docker
 - Git
+- CI e CD com Actions
 
 ## Por onde começar?
 > Não existe uma regra pois em nosso universo **nada é talhado em pedra**, porém sugiro a seguinte estratégia:
