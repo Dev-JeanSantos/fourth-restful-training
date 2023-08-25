@@ -64,10 +64,21 @@
 - Git
 
 ## Por onde começar?
-> Não existe uma regra pois em nosso universo nada é talhado em pedra, porém sugiro a seguinte estratégia:
+> Não existe uma regra pois em nosso universo **nada é talhado em pedra**, porém sugiro a seguinte estratégia:
 
 - Clonar esse repositorio;
 - Criar um Aplicação ApiRest utilizando o [Spring Initializr](https://start.spring.io/)
-  * Inicie com o mínimo possível de dependẽncias e na jornada da implementação voce irá adicionado apenas o necessário;
+  * Inicie apenas com as dependências necessárias para startar o projeto e na jornada da implementação voce irá adicionado apenas o necessário;
   * [Sugestão de projeto](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.7.15&packaging=jar&jvmVersion=11&groupId=com.academy.fourtk&artifactId=treinamento-apirest&name=treinamento-apirest&description=Create%20a%20Rest%20API%20to%20store%20a%20list%20of%20products%20from%20different%20vendors%20to%20be%20used%20in%20our%20mobile%20and%20web%20applications.&packageName=com.academy.fourtk.treinamento-apirest&dependencies=web)
+
+
+Inicie sua implementação dos recursos na seguinte ordem:
+  1. Controller
+  2. DTOS
+  3. Service
+  4. Dominio
+  5. Repository
+  6. Validação
+  7. Exceção
+  8. Teste
   
